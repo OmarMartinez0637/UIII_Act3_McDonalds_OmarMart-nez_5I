@@ -1,0 +1,27 @@
+<ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link" href="{% url 'app_McDonalds:inicio' %}">Inicio</a></li>
+  
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Clientes</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="{% url 'app_McDonalds:agregar_cliente' %}">Agregar Cliente</a></li>
+        <li><a class="dropdown-item" href="{% url 'app_McDonalds:ver_clientes' %}">Ver Clientes</a></li>
+      </ul>
+    </li>
+  
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Pedidos</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Agregar Pedido</a></li>
+        <li><a class="dropdown-item" href="#">Ver Pedidos</a></li>
+      </ul>
+    </li>
+  
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Empleados</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Agregar Empleado</a></li>
+        <li><a class="dropdown-item" href="#">Ver Empleados</a></li>
+      </ul>
+    </li>
+  </ul>
